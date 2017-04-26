@@ -14,6 +14,7 @@
 		583D8AA51EAEF13100842CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583D8AA31EAEF13100842CA1 /* LaunchScreen.storyboard */; };
 		583D8AB01EAEF13100842CA1 /* Simple_Calc_iOS_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D8AAF1EAEF13100842CA1 /* Simple_Calc_iOS_2Tests.swift */; };
 		583D8ABB1EAEF13100842CA1 /* Simple_Calc_iOS_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D8ABA1EAEF13100842CA1 /* Simple_Calc_iOS_2UITests.swift */; };
+		583D8AC91EB0148C00842CA1 /* HistryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D8AC81EB0148C00842CA1 /* HistryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		583D8AB61EAEF13100842CA1 /* Simple-Calc-iOS-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple-Calc-iOS-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		583D8ABA1EAEF13100842CA1 /* Simple_Calc_iOS_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Calc_iOS_2UITests.swift; sourceTree = "<group>"; };
 		583D8ABC1EAEF13100842CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		583D8AC81EB0148C00842CA1 /* HistryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				583D8A9A1EAEF13000842CA1 /* AppDelegate.swift */,
 				583D8A9C1EAEF13000842CA1 /* ViewController.swift */,
 				583D8A9E1EAEF13100842CA1 /* Main.storyboard */,
+				583D8AC81EB0148C00842CA1 /* HistryViewController.swift */,
 				583D8AA11EAEF13100842CA1 /* Assets.xcassets */,
 				583D8AA31EAEF13100842CA1 /* LaunchScreen.storyboard */,
 				583D8AA61EAEF13100842CA1 /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				583D8AC91EB0148C00842CA1 /* HistryViewController.swift in Sources */,
 				583D8A9D1EAEF13100842CA1 /* ViewController.swift in Sources */,
 				583D8A9B1EAEF13000842CA1 /* AppDelegate.swift in Sources */,
 			);
