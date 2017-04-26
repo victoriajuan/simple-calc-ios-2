@@ -9,7 +9,6 @@
 import UIKit
 
 class HistryViewController: UIViewController {
-    let screenSize: CGRect = UIScreen.main.bounds
     var history = [String]()
     
     @IBOutlet weak var scrollView: UIScrollView!
@@ -17,10 +16,10 @@ class HistryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scrollView.contentSize = CGSize(width: 200, height: history.count * 30)
+        scrollView.contentSize = CGSize(width: Int(view.frame.size.width), height: Int(view.frame.size.height))
         
         for i in 0..<history.count {
-            let label = UILabel(frame: CGRect(x: 0, y: i*30, width: 200, height: 25))
+            let label = UILabel(frame: CGRect(x: 0, y: i*30, width: Int(self.view.frame.size.width), height: 25))
    
             label.textAlignment = .left
             label.text = history[i]
